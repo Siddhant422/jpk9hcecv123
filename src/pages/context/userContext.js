@@ -12,7 +12,7 @@ export const AuthProvider = ({ children }) => {
     if(!email || !password){alert("please fill the details");return;}
     try {
         console.log('sdkfl')
-      const response = await axios.post("http://localhost:4000/login", {
+      const response = await axios.post("https://jpk9hcecv1234-production.up.railway.app/login", {
         username: email,
         password,
       });

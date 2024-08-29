@@ -41,7 +41,7 @@ const Header = () => {
           <nav>
           <ul className="flex flex-col justify-center items-center space-y-[8vw] text-[7vw] mt-[20vw] text-blue-800 font-semibold ">
             <li>
-              <Link to="/home"  className="hover:text-gray-300 font-bold">
+              <Link to="/home"  className="hover:text-gray-300">
                 Home
               </Link>
             </li>

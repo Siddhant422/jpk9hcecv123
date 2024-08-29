@@ -40,7 +40,7 @@ const LoginPage = () => {
     setError("");
 
     try {
-      const response = await axios.post(`http://localhost:4000/login`,{username:email,password})
+      const response = await axios.post(`https://jpk9hcecv1234-production.up.railway.app/login`,{username:email,password})
       if(response?.data?.data=="invalid"){
         throw new Error("Invalid username or password")
       }else{
