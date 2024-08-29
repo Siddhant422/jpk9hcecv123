@@ -85,7 +85,7 @@ const Header = () => {
     <header className="hidden lg:block bg-blue-800 text-white shadow-md">
       <div className="container mx-auto flex items-center justify-between p-4">
         <div className="flex items-center">
-          <Link to="/trips" className="hidden lg:block text-2xl font-bold">
+          <Link to="/home" className="hidden lg:block text-2xl font-bold">
             TourNest
           </Link>
         </div>
